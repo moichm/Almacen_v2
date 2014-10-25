@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/iconos">
+        <file>iconos/Delete.ico</file>
+        <file>iconos/Add.ico</file>
+        <file>iconos/iconoSalir.png</file>
+        <file>iconos/lapiz.ico</file>
+        <file>iconos/iconoMOVIMIENTOS.jpg</file>
+        <file>iconos/iconoKIT.jpg</file>
+        <file>iconos/iconoProductos.png</file>
+    </qresource>
+    <qresource prefix="/iconos/Centros">
+        <file>iconos/iconoCENTROS.jpg</file>
+        <file>iconos/iconoCENTROSAniadir.jpg</file>
+        <file>iconos/iconoCENTROSEliminar.jpg</file>
+        <file>iconos/iconoCENTROSLista.jpg</file>
+    </qresource>
+    <qresource prefix="/iconos/Operarios">
+        <file>iconos/iconoOperario.jpg</file>
+        <file>iconos/iconoOperarioAniadir.jpg</file>
+        <file>iconos/iconoOperarioEliminar.jpg</file>
+        <file>iconos/iconoOperarioEnt.jpg</file>
+        <file>iconos/iconoOperarioLista.jpg</file>
+        <file>iconos/iconoOperarioSal.jpg</file>
+    </qresource>
+    <qresource prefix="/iconos/Vehiculos">
+        <file>iconos/iconoVEHICULO.png</file>
+        <file>iconos/iconoVEHICULOAniadir.png</file>
+        <file>iconos/iconoVEHICULOEliminar.png</file>
+        <file>iconos/iconoVEHICULOEnt.png</file>
+        <file>iconos/iconoVEHICULOLista.png</file>
+        <file>iconos/iconoVEHICULOSal.png</file>
+    </qresource>
+</RCC>

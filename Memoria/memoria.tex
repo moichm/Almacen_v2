@@ -1,0 +1,104 @@
+% Este archivo es parte de la memoria del proyecto fin de carrera
+% de Moisés Chaves Mota. Protegida bajo la licencia GFDL.
+% Para más información, la licencia completa viene incluida en el
+% fichero fdl-1.3.tex
+% Fuente tomada de la plantilla LaTeX para
+% la realización de Proyectos Final de Carrera de Pablo Recio Quijano.
+% Copyright (C) 2009 Pablo Recio Quijano
+
+% Copyright (C) 2011-2012 Moisés Chaves Mota
+
+%-----------------------------------------------------------------------
+% ---- Memoria del proyecto fin de carrera de Diego Barrios Romero -----
+
+% Basado en la plantilla para memorias de proyectos fin de carrera
+% realizada por Pablo Recio Quijano y Noelia Sales Montes
+% Formato de portada y primera página tomado del PFC de
+% Francisco Javier Vázquez Púa, en su proyecto 'libgann'
+% ----------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{book}
+
+\usepackage{./estilos/estiloBase} % Basicamente son todas las
+                                  % librerias usadas. En caso de que
+                                  % falten librerias se van añadiendo
+                                  % al fichero.
+\usepackage{./estilos/colores}  % Algunos colores ya generados, para
+                                % los algunos estilos más avanzados.
+\usepackage{./estilos/comandos} % Algunos comandos personalizados
+
+\graphicspath{{./imagenes/}} % Indicamos la ruta donde se encuentran
+                             % las imagenes, para ahorrarnos la ruta
+                             % completa, y solo modificar aquí si en
+                             % un momento dado lo movemos
+
+\begin{document}
+
+% Renombramos las figuras y las tablas
+\renewcommand{\figurename}{Figura}
+\renewcommand{\listfigurename}{Indice de figuras}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Indice de tablas}
+
+\pagestyle{empty}
+\input{portada.tex}
+\cleardoublepage
+
+\input{primerahoja.tex}
+\cleardoublepage
+\pagestyle{plain}
+
+\frontmatter % Introducción, índices ...
+
+\input{previo.tex}
+\cleardoublepage
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter % Contenido en si ...
+
+\chapter{Introducción}
+\input{cap1.tex}
+
+\chapter{Conceptos básicos}
+\input{cap2.tex}
+
+\chapter{Planificación}
+\input{cap3.tex}
+
+\chapter{Análisis}
+\input{cap4.tex}
+
+\chapter{Diseño}
+\input{cap5.tex}
+
+\chapter{Implementación}
+\input{cap6.tex}
+
+\chapter{Pruebas}
+\input{cap7.tex}
+
+\chapter{Conclusiones}
+\input{cap8.tex}
+
+\backmatter % Apéndices, bibliografia ...
+
+\begin{appendices}
+\appendix
+\chapter{Manual de instalación}
+\input{cap9.tex}
+
+\chapter{Manual de usuario}
+\input{cap10.tex}
+\end{appendices}
+
+\clearpage
+\addcontentsline{toc}{chapter}{Bibliografia y referencias}
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\input{fdl-1.3.tex}
+
+\end{document}

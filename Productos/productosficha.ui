@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProductosFicha</class>
+ <widget class="QDialog" name="ProductosFicha">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ficha de producto</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="4">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Código</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="3">
+      <widget class="QLineEdit" name="edtCodigo">
+       <property name="maxLength">
+        <number>12</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QCheckBox" name="chbDisponible">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Disponible</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Descripción</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QCheckBox" name="chbCertificable">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Certificable</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="6">
+      <widget class="QLineEdit" name="edtDescripcion">
+       <property name="maxLength">
+        <number>150</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Categoría</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="4">
+      <widget class="QLineEdit" name="edtCategoria">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" rowspan="3">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Fecha Certificación</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" rowspan="3" colspan="2">
+      <widget class="QLineEdit" name="edtFechaCertif">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="3">
+      <widget class="QLineEdit" name="edtEstado">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Estado</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="6" rowspan="3">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>meses</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3" rowspan="3">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Fecha Próxima Certificación</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4" rowspan="3" colspan="2">
+      <widget class="QLineEdit" name="edtFechaProxCertif">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1" rowspan="3" colspan="2">
+      <widget class="QLineEdit" name="edtStockCentro">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0" rowspan="3">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Stock Centro</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="4" rowspan="3" colspan="2">
+      <widget class="QLineEdit" name="edtStockTotal">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7" rowspan="12" colspan="3">
+      <widget class="QScrollArea" name="scAreaImagen">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>158</width>
+         <height>212</height>
+        </size>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>156</width>
+          <height>210</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="9" column="3" rowspan="3">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Stock Total</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="8">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="12" column="7" colspan="3">
+      <widget class="QPushButton" name="btnExaminar">
+       <property name="text">
+        <string>Examinar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Familia</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" colspan="4">
+      <widget class="QLineEdit" name="edtFamilia">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Limite de entrega</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1" colspan="2">
+      <widget class="QSpinBox" name="spbLimite">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Frecuencia Certificación</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4" colspan="2">
+      <widget class="QSpinBox" name="spbFrecCertif">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QCheckBox" name="chbLimitada">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Limitado</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5" colspan="2">
+      <widget class="QToolButton" name="btnCategoria">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5" colspan="2">
+      <widget class="QToolButton" name="btnFamilia">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="btnCertif">
+     <property name="text">
+      <string>Certificar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Apply|QDialogButtonBox::Close|QDialogButtonBox::Save</set>
+     </property>
+     <property name="centerButtons">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="btnImprimir">
+     <property name="text">
+      <string>Imprimir</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>edtCodigo</tabstop>
+  <tabstop>chbCertificable</tabstop>
+  <tabstop>chbDisponible</tabstop>
+  <tabstop>edtDescripcion</tabstop>
+  <tabstop>btnCertif</tabstop>
+  <tabstop>buttonBox</tabstop>
+  <tabstop>edtFechaProxCertif</tabstop>
+  <tabstop>edtEstado</tabstop>
+  <tabstop>scAreaImagen</tabstop>
+  <tabstop>edtFechaCertif</tabstop>
+  <tabstop>edtCategoria</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
